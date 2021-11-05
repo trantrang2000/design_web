@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category product</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/category.css" />
+    <script
+      src="https://kit.fontawesome.com/286a7c2160.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Begin: Header -->
+      <header>
+        <div class="container d-flex jus-between al-center">
+          <div class="text-primary">Freeshipping on all order over $ 2000</div>
+          <ul class="d-flex al-center header-nav">
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#">Wishlist (0)</a></li>
+            <li><a href="#">Compare (0)</a></li>
+          </ul>
+        </div>
+      </header>
+      <!-- End: Header -->
+
+      <!-- Begin: Nav -->
+      <nav class="shadow">
+        <div class="container d-flex jus-center al-center">
+          <a href="#">
+            <img src="./images/logo.jpg" alt="logo" class="img-fluid" />
+          </a>
+          <ul class="flex-1 nav d-flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="d-flex al-center">
+            <i class="fas fa-search fs-large"></i>
+            <div class="cart-icon">
+              <i class="fas fa-cart-plus"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End: Nav -->
+
+      <!-- Begin: Main -->
+      <main class="container">
+        <!-- Breadcrumb -->
+        <ul class="breadcrumb">
+          <li><a href="#" class="link">Home&nbsp;/</a></li>
+          <li class="active">Category</li>
+        </ul>
+
+        <!-- Content -->
+        <section class="content d-flex">
+          <div class="col-3">
+            <div class="filter-left">
+              <h3>Price</h3>
+              <div class="form-check">
+                <input type="checkbox" id="filter_price" />
+                <label for="filter_price">$20 - $30</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" id="filter_price_2" />
+                <label for="filter_price_2">$40 - $80</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" id="filter_price_3" />
+                <label for="filter_price_3">> $80</label>
+              </div>
+            </div>
+            <div class="filter-left">
+              <h3>Brand</h3>
+              <div class="form-check">
+                <input type="checkbox" id="brand_1" />
+                <label for="brand_1">Studio Design</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" id="brand_2" />
+                <label for="brand_2">Graphic Corner</label>
+              </div>
+            </div>
+            <div class="filter-left">
+              <h3>Dimension</h3>
+              <div class="form-check">
+                <input type="checkbox" id="dimension_1" />
+                <label for="dimension_1">40x60cm</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" id="dimension_2" />
+                <label for="dimension_2">60x90cm</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" id="dimension_3" />
+                <label for="dimension_3">80x120cm</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="content-product">
+              <div class="filter">
+                <div class="filter-layout">
+                  <a href="#"><i class="fas fa-list-ul"></i></a>
+                  <a href="#"><i class="fas fa-grip-horizontal"></i></a>
+                </div>
+                <div class="filter-sort">
+                  <select name="" id="filter" class="form-select">
+                    <option value="1">Name, A - Z</option>
+                    <option value="2">Name, Z - A</option>
+                    <option value="3">Price, low to hight</option>
+                    <option value="4">Price, hight to low</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="list-product row">
+                <div class="col-4">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/today-is-a-good-day-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The adventure begins Framed poster
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/today-is-a-good-day-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The adventure begins Framed poster
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/today-is-a-good-day-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The adventure begins Framed poster
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/today-is-a-good-day-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The adventure begins Framed poster
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/today-is-a-good-day-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The adventure begins Framed poster
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/today-is-a-good-day-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The adventure begins Framed poster
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/today-is-a-good-day-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The adventure begins Framed poster
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/today-is-a-good-day-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The adventure begins Framed poster
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/today-is-a-good-day-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The adventure begins Framed poster
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pagination">
+                <ul>
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- End: Main -->
+
+      <!-- Begin: Footer -->
+      <footer>
+        <div class="send-mail">
+          <div class="container d-flex al-center jus-between">
+            <div class="send-mail-title">Newsletter</div>
+            <div class="flex-1 send-mail-input">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your email address"
+              />
+            </div>
+            <div class="send-mail-socials">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fas fa-apple-alt"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container d-flex footer-main">
+          <div class="col-3">
+            <h5>STORE INFORMATION</h5>
+            <p>Bos Highlands</p>
+            <p>8th floor - Palace Building - 221b Baker Street - London - UK</p>
+            <p>United States</p>
+          </div>
+          <div class="col-3">
+            <h5>Information</h5>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Checkout</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="#">Address</a></li>
+              <li><a href="#">Discount</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h5>Social</h5>
+          </div>
+        </div>
+
+        <div class="copy-right">
+          © 2021 Highland - A product of BoyOver Group. All righr Reserved
+        </div>
+      </footer>
+      <!-- End: Footer -->
+    </div>
+  </body>
+</html>

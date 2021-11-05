@@ -1,0 +1,37 @@
+.content {
+  margin: 5rem 0;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  background-color: var(--gray-300);
+}
+
+.filter .filter-layout {
+  display: flex;
+}
+
+.filter .filter-layout a {
+  padding: 0 1rem;
+  font-size: large;
+}
+
+.filter .filter-sort {
+  display: flex;
+}
+
+.list-product {
+  margin-top: 3rem;
+}
+
+.filter-left {
+  margin-bottom: 3rem;
+}
+
+.filter-left h3 {
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 1rem;
+}
