@@ -1,0 +1,36 @@
+.auth-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--gray-200);
+}
+
+.form-login {
+  max-width: 50rem;
+  padding: 3rem;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.form-login .logo {
+  display: block;
+  text-align: center;
+}
+
+.form-login h1 {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: xx-large;
+  font-weight: var(--font-weight-bold);
+}
+
+.form-login button {
+  margin: 2.5rem 0;
+  background-color: var(--primary);
+  color: white;
+  font-size: large;
+  text-transform: uppercase;
+}
