@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/product.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/286a7c2160.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Begin: Header -->
+      <header>
+        <div class="container d-flex jus-between al-center">
+          <div class="text-primary">Freeshipping on all order over $ 2000</div>
+          <ul class="d-flex al-center header-nav">
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#">Wishlist (0)</a></li>
+            <li><a href="#">Compare (0)</a></li>
+          </ul>
+        </div>
+      </header>
+      <!-- End: Header -->
+
+      <!-- Begin: Nav -->
+      <nav class="shadow">
+        <div class="container d-flex jus-center al-center">
+          <a href="#">
+            <img src="./images/logo.jpg" alt="logo" class="img-fluid" />
+          </a>
+          <ul class="flex-1 nav d-flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="d-flex al-center">
+            <i class="fas fa-search fs-large"></i>
+            <div class="cart-icon">
+              <i class="fas fa-cart-plus"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End: Nav -->
+
+      <!-- Begin: Main -->
+      <main class="container">
+        <!-- Breadcrumb -->
+        <ul class="breadcrumb">
+          <li><a href="#" class="link">Home&nbsp;/</a></li>
+          <li><a href="#" class="link">Category&nbsp;/</a></li>
+          <li class="active">Product</li>
+        </ul>
+
+        <!-- Content -->
+        <section class="detail">
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="./images/products/the-adventure-begins-framed-poster.jpg"
+                class="img-fluid shadow-lg"
+                alt=""
+              />
+            </div>
+            <div class="col-6">
+              <h1>Mountain fox</h1>
+              <h3>$9.00</h3>
+              <p>Tax excluded</p>
+              <div class="description">
+                <h4>Description</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum laudantium voluptate natus accusantium ipsa minima
+                  alias harum vel rem! Rerum, nesciunt! Suscipit enim ducimus id
+                  tempora ut quisquam quod distinctio!
+                </p>
+              </div>
+              <div class="btn-quantity-group">
+                <h4>Quantity:</h4>
+                <div>
+                  <button type="button" class="btn-plus" id="btn-dash">
+                    -
+                  </button>
+                  <span id="qty" class="px-3 fs-5">1</span>
+                  <button type="button" class="btn-plus" id="btn-plus">
+                    +
+                  </button>
+                </div>
+              </div>
+              <div class="btn-add-cart">
+                <button class="btn">Add to cart</button>
+              </div>
+              <div class="info">
+                <div class="info-item">
+                  <i class="fas fa-columns"></i>
+                  <span
+                    >Security policy (edit with Customer reassurance
+                    module)</span
+                  >
+                </div>
+                <div class="info-item">
+                  <i class="fab fa-angellist"></i>
+                  <span
+                    >Delivery policy (edit with Customer reassurance
+                    module)</span
+                  >
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-atom"></i>
+                  <span
+                    >Return policy (edit with Customer reassurance module)</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Relate product -->
+        <section class="relate-products">
+          <div class="container">
+            <div class="title">
+              <h2>Related Products</h2>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesettin
+              </p>
+            </div>
+
+            <div class="products swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/the-adventure-begins-framed-poster (1).jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">Hummingbird printed t-shirt</h5>
+                    </a>
+                    <div class="product-price">$20</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/the-adventure-begins-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">Hummingbird printed sweater</h5>
+                    </a>
+                    <div class="product-price">$29</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/the-best-is-yet-to-come-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The best is yet to come' Framed
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product">
+                    <div class="product-image">
+                      <img
+                        src="./images/products/today-is-a-good-day-framed-poster.jpg"
+                        alt=""
+                      />
+                      <div class="product-include">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iusto repellendus velit iste quisquam expedita rem
+                        repellat ipsa provident cum aliquid dolor quaerat
+                        cupiditate distinctio culpa nostrum eius a, inventore
+                        odio.
+                      </div>
+                    </div>
+                    <a href="#">
+                      <h5 class="product-title">
+                        The adventure begins Framed poster
+                      </h5>
+                    </a>
+                    <div class="product-price">$40</div>
+                    <div class="product-add">
+                      <button class="btn">Add cart</button>
+                    </div>
+                    <div class="product-status">
+                      <div class="status-hot">Hot!</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- End: Main -->
+
+      <!-- Begin: Footer -->
+      <footer>
+        <div class="send-mail">
+          <div class="container d-flex al-center jus-between">
+            <div class="send-mail-title">Newsletter</div>
+            <div class="flex-1 send-mail-input">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your email address"
+              />
+            </div>
+            <div class="send-mail-socials">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fas fa-apple-alt"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container d-flex footer-main">
+          <div class="col-3">
+            <h5>STORE INFORMATION</h5>
+            <p>Bos Highlands</p>
+            <p>8th floor - Palace Building - 221b Baker Street - London - UK</p>
+            <p>United States</p>
+          </div>
+          <div class="col-3">
+            <h5>Information</h5>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Checkout</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="#">Address</a></li>
+              <li><a href="#">Discount</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h5>Social</h5>
+          </div>
+        </div>
+
+        <div class="copy-right">
+          © 2021 Highland - A product of BoyOver Group. All righr Reserved
+        </div>
+      </footer>
+      <!-- End: Footer -->
+
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="./js/product.js"></script>
+    </div>
+  </body>
+</html>
