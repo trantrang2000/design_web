@@ -94,3 +94,16 @@
   padding: 1rem 0;
   border-bottom: 1px solid var(--gray-200);
 }
+
+@media screen and (max-width: 768px) {
+  .choose-us {
+    display: none;
+  }
+  .about-us .background {
+    padding-bottom: 70%;
+  }
+  .hot-products .title h2,
+  .our-products .title h2 {
+    font-size: 3rem;
+  }
+}

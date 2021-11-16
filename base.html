@@ -16,7 +16,9 @@
       <!-- Begin: Header -->
       <header>
         <div class="container d-flex jus-between al-center">
-          <div class="text-primary">Freeshipping on all order over $ 2000</div>
+          <div class="text-primary top-header">
+            Freeshipping on all order over $ 2000
+          </div>
           <ul class="d-flex al-center header-nav">
             <li><a href="#">Sign in</a></li>
             <li><a href="#">Wishlist (0)</a></li>
@@ -27,7 +29,7 @@
       <!-- End: Header -->
 
       <!-- Begin: Nav -->
-      <nav class="shadow">
+      <nav class="shadow nav-pc">
         <div class="container d-flex jus-center al-center">
           <a href="#">
             <img src="./images/logo.jpg" alt="logo" class="img-fluid" />
@@ -47,6 +49,29 @@
           </div>
         </div>
       </nav>
+      <nav class="nav-sm">
+        <div class="d-flex jus-between al-center">
+          <a href="#" id="open-nav-sm">
+            <i class="fas fa-align-justify"></i>
+          </a>
+          <a href="#">
+            <img
+              src="./images/logo.jpg"
+              alt="logo"
+              class="img-fluid"
+              width="40"
+            />
+          </a>
+        </div>
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+          <li class="btn-close">&times;</li>
+        </ul>
+      </nav>
       <!-- End: Nav -->
 
       <!-- Begin: Main -->
@@ -56,7 +81,7 @@
       <!-- Begin: Footer -->
       <footer>
         <div class="send-mail">
-          <div class="container d-flex al-center jus-between">
+          <div class="container d-flex al-center jus-between flex-wrap">
             <div class="send-mail-title">Newsletter</div>
             <div class="flex-1 send-mail-input">
               <input
@@ -75,14 +100,14 @@
           </div>
         </div>
 
-        <div class="container d-flex footer-main">
-          <div class="col-3">
+        <div class="container row footer-main">
+          <div class="col-3 col-md-6">
             <h5>STORE INFORMATION</h5>
             <p>Bos Highlands</p>
             <p>8th floor - Palace Building - 221b Baker Street - London - UK</p>
             <p>United States</p>
           </div>
-          <div class="col-3">
+          <div class="col-3 col-md-6">
             <h5>Information</h5>
             <ul>
               <li><a href="#">My Account</a></li>
@@ -91,7 +116,7 @@
               <li><a href="#">Checkout</a></li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-3 col-md-6">
             <h5>Support</h5>
             <ul>
               <li><a href="#">Address</a></li>
@@ -100,16 +125,17 @@
               <li><a href="#">Privacy</a></li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-3 col-md-6">
             <h5>Social</h5>
           </div>
         </div>
 
         <div class="copy-right">
-          © 2021 Highland - A product of BoyOver Group. All righr Reserved
+          © 2021 Highland - A product of BoyOver Group. All right Reserved
         </div>
       </footer>
       <!-- End: Footer -->
+      <script src="./js/base.js"></script>
     </div>
   </body>
 </html>

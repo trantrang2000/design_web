@@ -65,6 +65,10 @@ a:hover {
   flex-grow: 1;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 /* Color */
 .text-gray {
   color: var(--gray-100);
@@ -317,6 +321,11 @@ main {
 header {
   border-bottom: 1px solid var(--gray-200);
 }
+
+header > div {
+  flex-wrap: wrap;
+}
+
 .header-nav li a {
   display: block;
   padding: 1.6rem;
@@ -487,4 +496,73 @@ nav {
 .product:hover .product-include {
   opacity: 1;
   visibility: visible;
+}
+
+.nav-sm {
+  padding: 1rem 2rem;
+  display: none;
+}
+
+.nav-sm ul {
+  position: fixed;
+  padding: 2rem;
+  top: 0;
+  bottom: 0;
+  left: -30rem;
+  width: 30rem;
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  z-index: 99;
+  transition: all 0.3s;
+}
+
+.nav-sm ul.show {
+  left: 0;
+}
+
+.nav-sm ul li a {
+  display: block;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-sm ul li.active a {
+  color: var(--primary);
+}
+
+.nav-sm .btn-close {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#open-nav-sm {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .top-header {
+    display: none;
+  }
+  .nav-pc {
+    display: none;
+  }
+  .nav-sm {
+    display: block;
+  }
+  .send-mail .send-mail-input {
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
+    padding: 0 1rem;
+  }
 }
